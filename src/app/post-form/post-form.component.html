@@ -1,0 +1,5 @@
+<form #postForm="ngForm" (ngSubmit)="SubmitPost(postForm)">
+  Title: <input type="text" name="title" ngModel /> Thought
+  <input type="text" name="thought" ngModel />
+  <button>send</button>
+</form>
